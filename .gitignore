@@ -1,0 +1,15 @@
+/.env
+/.vscode
+/config/*
+/data/*
+/logs/*
+.DS_Store
+/.github/ISSUE_TEMPLATE
+/bin
+/docker-compose.yml
+/LICENSE
+/README.md
+/sample.env
+/todo.md
+/README-ja.md
+/www/ignores
