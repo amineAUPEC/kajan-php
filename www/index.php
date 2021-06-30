@@ -25,7 +25,7 @@ $ip_value=$_GET['ip'];
 
 echo "<br>";
 // exec("ping 127.0.0.1 -c 1 -w 1", $output);
-exec("ping -c 4 -w 2 " . $_GET['ip'], $output);
+exec("ping -c 4 -W 2 " . $_GET['ip'], $output);
 // echo "&ltpre>";
 print_r($output);
 // echo "&lt/pre>";

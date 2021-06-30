@@ -22,7 +22,7 @@ echo $_GET['ip'];
 $ip_value=$_GET['ip'];
 
 echo "<br>";
-exec("ping -c 4 -w 2 " . $_GET['ip'], $output);
+exec("ping -c 4 -W 2 " . $_GET['ip'], $output);
 print_r($output);
 
 
